@@ -4053,6 +4053,7 @@ prometheus:
       enabled: true
       name: additional-scrape-configs
       key: prometheus-additional.yaml
+    #values are updated
 
     ## additionalPrometheusSecretsAnnotations allows to add annotations to the kubernetes secret. This can be useful
     ## when deploying via spinnaker to disable versioning on the secret, strategy.spinnaker.io/versioned: 'false'
