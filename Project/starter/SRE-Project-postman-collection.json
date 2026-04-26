@@ -38,10 +38,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://{{public-ip}}/init",
+					"raw": "http://{{54.198.129.27}}/init",
 					"protocol": "http",
 					"host": [
-						"{{public-ip}}"
+						"{{54.198.129.27}}"
 					],
 					"path": [
 						"init"
@@ -84,7 +84,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"username\": \"{{username}}\",\r\n\t\"email\": \"{{email}}\"\r\n}",
+					"raw": "{\r\n\t\"username\": \"{{reddylikhitha2001@gmail.com}}\",\r\n\t\"email\": \"{{reddylikhitha2001@gmail.com}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -92,17 +92,17 @@
 					}
 				},
 				"url": {
-					"raw": "http://{{public-ip}}/auth/register",
+					"raw": "http://{{54.198.129.27}}/auth/register",
 					"protocol": "http",
 					"host": [
-						"{{public-ip}}"
+						"{{54.198.129.27}}"
 					],
 					"path": [
 						"auth",
 						"register"
 					]
 				},
-				"description": "Register an inital user:\r\n\r\n```\r\n{\r\n\t\"username\": \"<username>\",\r\n\t\"email\": \"<email>\"\r\n}\r\n```"
+				"description": "Register an inital user:\r\n\r\n```\r\n{\r\n\t\"username\": \"reddylikhitha2001@gmail.com\",\r\n\t\"email\": \"reddylikhitha2001@gmail.com\"\r\n}\r\n```"
 			},
 			"response": []
 		},
@@ -514,10 +514,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://{{public-ip}}/events/",
+					"raw": "http://{{54.198.129.27}}/events/",
 					"protocol": "http",
 					"host": [
-						"{{public-ip}}"
+						"{{54.198.129.27}}"
 					],
 					"path": [
 						"events",
@@ -560,10 +560,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{public-ip}}/events",
+					"raw": "http://{{54.198.129.27}}/events",
 					"protocol": "http",
 					"host": [
-						"{{public-ip}}"
+						"{{54.198.129.27}}"
 					],
 					"path": [
 						"events"
@@ -605,10 +605,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{public-ip}}/events/{{event-id}}",
+					"raw": "http://{{54.198.129.27}}/events/{{event-id}}",
 					"protocol": "http",
 					"host": [
-						"{{public-ip}}"
+						"{{54.198.129.27}}"
 					],
 					"path": [
 						"events",
